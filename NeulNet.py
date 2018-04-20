@@ -55,4 +55,4 @@ def NeulNet(input_shape,architecture):
     compiler_arg = architecture[-1]
     reformatted_compil = opti_build(compiler_arg)
     model.compile(**reformatted_compil)
-    return model
+    return model 
