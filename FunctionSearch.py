@@ -39,7 +39,7 @@ def opti_build(compiler_arg):
     return myDict
 
 
-def NeulNet(input_shape,architecture):
+def FunctionSearch(input_shape,architecture):
     import keras
     from keras.layers import Input
     from keras.models import Model
